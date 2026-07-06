@@ -1,4 +1,4 @@
-import { resolve } from "node:path";
+import path from "node:path";
 
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
@@ -10,7 +10,7 @@ import { drizzle } from "drizzle-orm/pglite";
 import { users } from "./auth-schema";
 import * as schema from "./auth-schema";
 
-config({ path: resolve(process.cwd(), ".env") });
+config({ path: path.resolve(process.cwd(), ".env") });
 
 const seed = async () => {
   console.log("Seeding database...");
