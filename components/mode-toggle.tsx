@@ -10,9 +10,9 @@ export const ModeToggle = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <Button 
-      variant="outline" 
-      size="icon" 
+    <Button
+      variant="outline"
+      size="icon"
       className="shrink-0"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >

@@ -45,7 +45,10 @@ export const NavMain = ({
         >
           <SidebarMenuItem>
             <CollapsibleTrigger asChild>
-              <SidebarMenuButton tooltip={item.title} className="bg-transparent">
+              <SidebarMenuButton
+                tooltip={item.title}
+                className="bg-transparent"
+              >
                 {item.icon}
                 <span>{item.title}</span>
                 <ChevronRightIcon className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />

@@ -70,7 +70,12 @@ const LandingPage = () => (
             size="lg"
             className="rounded-full text-lg h-16 px-10 bg-primary text-primary-foreground hover:bg-primary/90 group overflow-hidden relative border-0"
           >
-            <Link href="https://github.com/Laznology/tachys-next" className="flex items-center gap-2" target="_blank" rel="noopener">
+            <Link
+              href="https://github.com/Laznology/tachys-next"
+              className="flex items-center gap-2"
+              target="_blank"
+              rel="noopener"
+            >
               Get Template Repo
               <Icon
                 icon="ph:arrow-right-bold"
@@ -157,7 +162,8 @@ const LandingPage = () => (
               PWA & SEO Optimized
             </h3>
             <p className="text-muted-foreground font-light leading-relaxed">
-              Native PWA support, dynamic sitemap, robots.txt, and Schema.org JSON-LD built-in.
+              Native PWA support, dynamic sitemap, robots.txt, and Schema.org
+              JSON-LD built-in.
             </p>
           </div>
 
@@ -169,7 +175,8 @@ const LandingPage = () => (
               Agent AI Skills Ready
             </h3>
             <p className="text-muted-foreground font-light leading-relaxed">
-              Fully optimized for AI assistants with strict architectural rules and subagent workflows.
+              Fully optimized for AI assistants with strict architectural rules
+              and subagent workflows.
             </p>
           </div>
         </div>

@@ -27,4 +27,4 @@ export const ThemeToggle = ({ className }: { className?: string }) => {
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
-}
+};

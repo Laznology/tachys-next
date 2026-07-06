@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
+import { PwaRegister } from "@/components/pwa-register";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SITE_CONFIG } from "@/lib/seo";
 
 import { TrpcProvider } from "../components/providers/trpc-provider";
-import { PwaRegister } from "@/components/pwa-register";
 
 const geistSans = Geist({
   subsets: ["latin"],

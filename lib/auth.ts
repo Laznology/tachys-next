@@ -8,7 +8,8 @@ import { db } from "@/server/db/client";
 export const auth = betterAuth({
   database: drizzleAdapter(db, {
     provider: "pg",
-    schema, // Required for PGlite/Drizzle when executing outside Next context
+    // Required for PGlite/Drizzle when executing outside Next context
+    schema,
     usePlural: true,
   }),
   emailAndPassword: {
