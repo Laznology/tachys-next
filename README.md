@@ -2,7 +2,7 @@
 
 Tachys-Next is a high-performance, opinionated boilerplate for Next.js 16, optimized for modern, rapid development with strict architectural guidelines.
 
-![Tachys-Next Landing Page Preview](https://assets.laznology.dev/project-preview/tachy-next-landing.png)
+![Tachys-Next Landing Page Preview](https://assets.laznology.dev/project-preview/tachys-next.vercel.app.png)
 
 ## 🚀 Tech Stack
 
